@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+    body {
+        background: tan;
+    }
+</style>
+
+<body>
+
+<p id = "demo" ></p>
+
+<script>
+    document.getElementById("demo").innerHTML =
+   "The page location is: " + window.location.href;
+</script>
+
+<p id = "demo1" ></p>
+
+<script>
+    document.getElementById("demo1").innerHTML =
+        "The page hostname is: " + window.location.hostname;
+</script>
+
+<p id = "demo2" ></p>
+
+<script>
+    document.getElementById("demo2").innerHTML =
+        "The page path is: " + window.location.pathname;
+</script>
+
+<p id = "demo3" ></p>
+
+<script>
+    document.getElementById("demo3").innerHTML =
+        "The page protocol is: " + window.location.protocol;
+</script>
+
+</body>
+</html>

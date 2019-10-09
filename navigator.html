@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+    body {
+        background: tan;
+    }
+</style>
+
+<body>
+
+<p id="demo"></p>
+<script>
+   {
+        var x = "Browser Name: " + navigator.appName;
+        document.getElementById("demo").innerHTML = x;
+    }
+</script>
+
+<p id="demo1"></p>
+<script>
+    {
+        var x = "Browser's Engine Name: " + navigator.product;
+        document.getElementById("demo1").innerHTML = x;
+    }
+</script>
+
+<p id="demo2"></p>
+<script>
+    {
+        var x = "Version info: " + navigator.appVersion;
+        document.getElementById("demo2").innerHTML = x;
+    }
+</script>
+
+<p id="demo3"></p>
+
+<script>
+    {
+        var x = "User-agent header sent: " + navigator.userAgent;
+        document.getElementById("demo3").innerHTML = x;
+    }
+</script>
+
+<p id="demo4"></p>
+<script>
+    {
+        var x = "Platform: " + navigator.platform;
+        document.getElementById("demo4").innerHTML = x;
+    }
+</script>
+
+<p id="demo5"></p>
+<script>
+    {
+        var x = "Language of the browser: " + navigator.language;
+        document.getElementById("demo5").innerHTML = x;
+    }
+</script>
+
+</body>
+</html>
