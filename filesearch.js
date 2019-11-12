@@ -1,4 +1,3 @@
-filesearch.js
 
 window.onload = function() {
     var fileInput = document.getElementById('File1');
