@@ -1,5 +1,3 @@
-filesearch.js
-
 window.onload = function() {
     var fileInput = document.getElementById('File1');
     var fileDisplayArea = document.getElementsByClassName('content')[0];
@@ -114,7 +112,7 @@ function deselectAll() {
 
 function writeJSON() {
     var resultsObject = {"Result" : []};
-    var name = "file";
+    var name = prompt ("Please name your file without extension): ");
     name = name + ".json";
     var results = document.getElementsByClassName("content")[0];
     var indRes = results.children;
@@ -131,7 +129,7 @@ function writeJSON() {
 }
 
 function writeCSV() {
-    var name = "file";
+    var name = prompt ("Please name your file without extension): ");
     name = name + ".csv";
     var results = document.getElementsByClassName("content")[0];
     var indRes = results.children;
@@ -152,7 +150,7 @@ function writeCSV() {
 }
 
 function writeXML() {
-    var name = "file";
+    var name = prompt ("Please name your file without extension): ");
     name = name + ".xml";
     var results = document.getElementsByClassName("content")[0];
     var indRes = results.children;
